@@ -1,0 +1,19 @@
+:root{
+    background-color: #5867A4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container
+{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.form { background-color: aqua;}
+
+h2 {
+    text-align: center;
+}
