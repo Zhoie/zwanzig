@@ -1,1 +1,3 @@
-20 web projects exercises from https://github.com/bradtraversy/vanillawebprojects
+# Zwanzig
+
+20 web projects exercises from [vanillawebprojects](https://github.com/bradtraversy/vanillawebprojects)
