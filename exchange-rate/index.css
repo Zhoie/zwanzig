@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+.container {
+    font-family: 'Tilt Warp', cursive;
+}
+
+h1 {
+   
+    font-size: 40px;
+    color:rgba(56, 79, 158, 1.0);
+}
+
+p {
+   
+    font-size: 20px;
+    color: #04041F;
+}
