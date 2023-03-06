@@ -43,6 +43,7 @@ h1 {
 .control .btn {
     border: 0;
     background: transparent;
+    
 }
 
 .control .fa-play {
@@ -64,7 +65,7 @@ h1 {
 }
 
 @media(max-width: 768px) {
-    .screen,
+    .screen ,
     .control {
         width: 90%;
     }
