@@ -1,17 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
-.container {
+ * {
+    box-sizing: border-box;
+ }
+
+ body {
     font-family: 'Tilt Warp', cursive;
-}
+    background-color: #F9F4EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-height: 100vh;
+    margin: 0;
+ }
 
 h1 {
-   
-    font-size: 40px;
+    font-size: 30px;
     color:rgba(56, 79, 158, 1.0);
 }
 
 p {
    
-    font-size: 20px;
+    font-size: 16px;
     color: #04041F;
+}
+
+.exchange-img {
+    width: 100px;
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    font-family: 'Tilt Warp', cursive;
+}
+
+.swap-rate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.currency select {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: 'Tilt Warp', cursive;
+
+}
+
+.currency-amount{
+    font-size: 16px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.btn {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 16px;
 }
