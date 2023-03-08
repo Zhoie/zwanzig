@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewPort" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+        <title>My Page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="./imgs/corgi.png" alt="corgi"></img>
+            </div>
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li ><a href="#">Profolio</a></li>
+                <li ><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+            
+
+        <header>
+            <button type="button" class="toggle" id="toggle">Toggle</button>
+            <h1>My Page</h1>
+            <p>Introduce yourself to your visitors and tell them who you are, what you do, and what you are passionate about. Share your personal story and what led you to create your webpage.</p>
+            <button type="button" class="sign-up" id="sign-up">Sign-up</button>
+        </header>
+        <div class="container">
+            <h2>Hobbies and Interests</h2>
+            <p> Share your hobbies and interests with your visitors. This could include anything from sports and travel to cooking and music. Show your personality and let your visitors get to know you better.</p>
+            <h2>Experience and Skills </h2>
+            <p>Highlight your experience and skills in a particular field or industry. Share your achievements and accomplishments that showcase your expertise.</p>
+            <h2>Blog </h2>
+            <p>Start a blog and share your thoughts and ideas on various topics that interest you. This will help you build a following and engage with your visitors.</p>
+            <h2>Portfolio </h2>
+            <p>Showcase your work and projects if you're an artist, designer, writer, or any other creative professional. This will help you highlight your skills and accomplishments and attract potential clients or employers.</p>
+            <h2>Contact Information </h2>
+            <p>Make sure to include your contact information so your visitors can get in touch with you. This could include your email address, social media handles, or a contact form.</p>
+        </div>
+        
+        <!--modal-->
+        <div class="modal-container show-modal" id="modal">
+            <div class="modal-header">
+                <h1>Sign-up</h1>
+                <button type="button" class="close-Btn" id="close-Btn">close-Btn</button>
+            </div>
+            <div class="modal-container">
+                <p>Register with us to get offers, support and more</p>
+                <form class="modal-form"> 
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Name">
+                    <label for="email">Email</label>
+                    <input type="text" id ="email" placeholder="Enter Email">
+                    <label for="password">Enter Password</label>
+                    <input type="text" id ="password" placeholder="Enter password">
+                    <label for="password2">comfirm Password</label>
+                    <input type="text" id ="password2" placeholder="Comfirm password">
+                </form>
+                <button type="button" class="submit-Btn" id="submit-Btn">Submit</button>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
