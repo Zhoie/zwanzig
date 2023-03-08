@@ -54,8 +54,9 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: antiquewhite;
-    text-decoration: underline;
+    background-color:  antiquewhite;
+    color:  #30336b;
+    text-decoration: none;
 }
 
 h2 {
