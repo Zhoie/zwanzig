@@ -1,4 +1,8 @@
-const toggleBtn = document.getElementById('toggle')
+const toggleBtn = document.getElementById('toggle-btn')
+const openBtn = document.getElementById('open-btn')
+const closeBtn = document.getElementById('close-Btn')
+const modal = document.getElementById('modal');
+const navbar = document.getElementById('navbar');
 
 
 function closeNavbar(e) {
@@ -16,8 +20,15 @@ function closeNavbar(e) {
       }
 }
 
+modal.classList.remove('show-modal')
 
 toggleBtn.addEventListener('click',() => {
 document.body.classList.toggle('show-nav')
 document.body.addEventListener('click', closeNavbar);
 })
+
+openBtn.addEventListener('click',() => modal.classList.add('show-modal'))
+closeBtn.addEventListener('click', () => modal.classList.remove('show-modal'));
+window.addEventListener('click', e =>
+  e.target == modal ? modal.classList.remove('show-modal') : false
+);
